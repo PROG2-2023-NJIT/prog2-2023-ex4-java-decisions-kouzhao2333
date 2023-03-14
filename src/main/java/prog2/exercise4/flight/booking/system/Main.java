@@ -85,7 +85,7 @@ public class Main
        flightBooking.setBookingClass(bookingClass);
        flightBooking.setTotalPassengers(childPassengers ,adultPassengers);
        flightBooking.setTripDestination(tripDestination ,reTripDestination);
-       flightBooking.setTotalTicketPrice(childPassengers,adultPassengers);
+       flightBooking.setTotalTicketPrice();
         System.out.println(flightBooking);
 
 
